@@ -2,7 +2,10 @@ import React from 'react'
 
 const colorBox = () => {
   return (
-    <div>colorBox</div>
+    <div>colorBox
+
+        <button>jsdhsaj</button>
+    </div>
   )
 }
 
