@@ -2,7 +2,9 @@ import React from 'react'
 
 function names() {
   return (
-    <div>names</div>
+    <div>names
+      
+    </div>
   )
 }
 
