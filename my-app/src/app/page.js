@@ -3,15 +3,17 @@ import Navber from '@/compoents/Navber'
 import React from 'react'
 import Image from 'next/image'
 import my from "../../public/image/m.jpeg"
+import FetchData from '@/compoents/FetchData'
 
 
-function page() {
+async function page() {
   return (
     <div>
       {/* <Navber/> */}
       {/* <Image/> */}
 
-      <Image src={my} width={200} height={200}/>
+      {/* <Image src={my} width={200} height={200}/> */}
+      <FetchData/>
     </div>
   )
 }
